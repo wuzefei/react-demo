@@ -1,0 +1,17 @@
+{
+  "presets": [ "es2015", "stage-0", "react"],
+  "plugins": [
+    ["import", { "style": "css", "libraryName": "antd" }],
+    [
+      "transform-runtime",
+      {
+        "helpers": false,
+        "polyfill": false,
+        "regenerator": true,
+        "moduleName": "babel-runtime"
+      }
+    ],
+    "transform-decorators-legacy",
+    "lodash"
+  ]
+}
