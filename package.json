@@ -7,7 +7,7 @@
     "build": "webpack",
     "start": "webpack-dev-server --hot --inline",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
-    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build --open"
   },
   "author": "wuzf",
   "license": "ISC",
